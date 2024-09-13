@@ -1,5 +1,5 @@
 
-Script Python et données utilisées pour la video Youtube de la Chaine "Réfléchir par vous meme" de debunk du Post Twitter/X.
+Scripts Python et données utilisées pour la video Youtube de la Chaine "Réfléchir par vous meme" de debunk du Post Twitter/X.
 
 Ce projet analyse les données climatiques des stations météorologiques françaises pour identifier les tendances (ou pas) des extêmes de température et les vagues de chaleur. Il comprend plusieurs scripts Python pour le traitement, l'analyse et la visualisation des données.
 

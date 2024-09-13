@@ -66,8 +66,8 @@ print(resultats)
 
 # Graphique du pourcentage de stations au-dessus du percentile 99.9
 plt.plot(resultats['Année'], resultats['Pourcentage_Stations_Depassant'], marker='o')
-plt.set_ylabel('Pourcentage de stations (%)')
-plt.set_title('Pourcentage de stations au-dessus du percentile 99.9 1960-1990')
+plt.ylabel('Pourcentage de stations (%)')
+plt.title('Pourcentage de stations au-dessus du percentile 99.9 1960-1990')
 plt.grid(True, linestyle='--', alpha=0.7)
 
 # Ajuster la disposition des sous-graphiques

@@ -63,20 +63,12 @@ resultats = resultats.sort_values('Année')
 print(resultats)
 
 # Créer la figure avec deux sous-graphiques
-fig, (ax1) = plt.subplots(2, 1, figsize=(12, 10), sharex=True)
 
 # Graphique du pourcentage de stations au-dessus du percentile 99.9
-ax1.plot(resultats['Année'], resultats['Pourcentage_Stations_Depassant'], marker='o')
-ax1.set_ylabel('Pourcentage de stations (%)')
-ax1.set_title('Pourcentage de stations au-dessus du percentile 99.9 1960-1990')
-ax1.grid(True, linestyle='--', alpha=0.7)
-
-# Graphique du nombre total de stations
-# ax2.plot(resultats['Année'], resultats['Nombre_Stations_pour_cette_annee'], marker='s', color='green')
-# ax2.set_xlabel('Année')
-# ax2.set_ylabel('Nombre total de stations')
-# ax2.set_title('Nombre total de stations utilisées chaque année')
-# ax2.grid(True, linestyle='--', alpha=0.7)
+plt.plot(resultats['Année'], resultats['Pourcentage_Stations_Depassant'], marker='o')
+plt.set_ylabel('Pourcentage de stations (%)')
+plt.set_title('Pourcentage de stations au-dessus du percentile 99.9 1960-1990')
+plt.grid(True, linestyle='--', alpha=0.7)
 
 # Ajuster la disposition des sous-graphiques
 plt.tight_layout()
@@ -84,8 +76,6 @@ plt.tight_layout()
 # Rotation des étiquettes de l'axe x pour une meilleure lisibilité
 plt.xticks(rotation=45)
 
-# Sauvegarder le graphique
-plt.savefig('analyse_stations_temperature.png')
 plt.show()
 
 ##

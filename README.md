@@ -58,7 +58,7 @@ VOUS DEVEZ DÉZIPPER LES FICHIERS .zip dans le dossier `data` .
 ### vagues_chaleurs_France_metro.py
 - Identifie les vagues de chaleur, comme sur 6 jours consécutifs de températures maximales au-dessus du 90ème percentile (période de référence 1960-1990).
 - Analyse la fréquence des vagues de chaleur de 1994 à 2022.
-- Génère des graphiques montrant l'évolution des vagues de chaleur et le nombre de stations utilisées.
+- Génère des graphiques montrant l'évolution des vagues de chaleur.
 
 ## Données
 

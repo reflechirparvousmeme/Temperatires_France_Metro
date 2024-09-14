@@ -3,6 +3,8 @@ Scripts Python et données utilisées pour la video Youtube de la Chaine "Réfl�
 
 Ce projet analyse les données climatiques des stations météorologiques françaises pour identifier les tendances (ou pas) des extêmes de température et les vagues de chaleur. Il comprend plusieurs scripts Python pour le traitement, l'analyse et la visualisation des données.
 
+Lien de la vidéo Youtube: [https://youtu.be/YspWkjcXPek](https://youtu.be/YspWkjcXPek)
+
 VOUS DEVEZ DÉZIPPER LES FICHIERS .zip dans le dossier `data`
 
 ## Prérequis

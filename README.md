@@ -5,7 +5,7 @@ Ce projet analyse les données climatiques des stations météorologiques franç
 
 Lien de la vidéo Youtube: [https://youtu.be/YspWkjcXPek](https://youtu.be/YspWkjcXPek)
 
-VOUS DEVEZ DÉZIPPER LES FICHIERS .zip dans le dossier `data`
+VOUS DEVEZ DÉZIPPER LES FICHIERS .zip dans le dossier `data` .
 
 ## Prérequis
 
@@ -20,7 +20,7 @@ VOUS DEVEZ DÉZIPPER LES FICHIERS .zip dans le dossier `data`
 1. Clonez ce dépôt :
    ```
    git clone https://github.com/reflechirparvousmeme/Temperatures_France_Metro.git
-   cd analyse-donnees-climatiques
+   cd temperatures_france_metro
    ```
 
 2. Installez les paquets requis :
@@ -47,11 +47,11 @@ VOUS DEVEZ DÉZIPPER LES FICHIERS .zip dans le dossier `data`
 - Génère un graphique montrant l'évolution des stations actives de 1960 à 2022.
 
 ### calcul_percentile999_exemple_aleatoire.py
-- Sélectionne une station aléatoire et calcule le 99,9ème percentile des températures quotidiennes.
+- Sélectionne une station aléatoire et calcule le 99.9ème percentile des températures quotidiennes.
 - Crée un histogramme de la distribution des températures pour la station sélectionnée.
 
 ### temperature_sup_95pc.py
-- Calcule le pourcentage de stations dépassant la température du 99,9ème percentile (basé sur les données 1960-1990).
+- Calcule le pourcentage de stations dépassant la température du 99.9ème percentile (basé sur les données 1960-1990).
 - Génère des graphiques montrant l'évolution des extrêmes de température.
 - Crée une carte des stations météorologiques en France.
 

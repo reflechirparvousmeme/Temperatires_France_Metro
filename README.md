@@ -67,15 +67,15 @@ VOUS DEVEZ DÉZIPPER LES FICHIERS .zip dans le dossier `data` .
 
 Les scripts s'attendent à des fichiers CSV contenant des données de température quotidiennes pour les stations météorologiques françaises. Les données doivent inclure les colonnes suivantes :
 
-- NUM_POSTE : Identifiant de la station
-- NOM_USUEL : Nom de la station
-- LAT : Latitude
-- LON : Longitude
-- ALTI : Altitude
-- AAAAMMJJ : Date de la mesure
-- TX : Température maximale du jour, celcius, sous abris
-- TN : Température minimale du jour, celcius, sous abris
-- TM : Température moyenne du jour, celcius, sous abris
+- `NUM_POSTE` : Identifiant de la station
+- `NOM_USUEL` : Nom de la station
+- `LAT` : Latitude
+- `LON` : Longitude
+- `ALTI` : Altitude
+- `AAAAMMJJ` : Date de la mesure
+- `TX` : Température maximale du jour, celcius, sous abris
+- `TN` : Température minimale du jour, celcius, sous abris
+- `TM` : Température moyenne du jour, celcius, sous abris
 
 ## Sortie
 

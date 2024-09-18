@@ -50,7 +50,7 @@ VOUS DEVEZ DÉZIPPER LES FICHIERS .zip dans le dossier `data` .
 - Sélectionne une station aléatoire et calcule le 99.9ème percentile des températures quotidiennes.
 - Crée un histogramme de la distribution des températures pour la station sélectionnée.
 
-### `temperature_sup_95pc.py`
+### `temperature_sup_999pc.py`
 - Calcule le pourcentage de stations dépassant la température du 99.9ème percentile (basé sur les données 1960-1990).
 - Génère des graphiques montrant l'évolution des extrêmes de température.
 - Crée une carte des stations météorologiques en France.

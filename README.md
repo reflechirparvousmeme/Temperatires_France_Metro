@@ -38,27 +38,30 @@ VOUS DEVEZ DÉZIPPER LES FICHIERS .zip dans le dossier `data` .
 
 ## Description des scripts
 
-### data_loader.py
+### `data_loader.py`
 - Charge et combine les données à partir de fichiers CSV ou d'un fichier pickle.
 - Filtre les colonnes inutiles et les valeurs nulles.
 
-### check_stations.py
+### `check_stations.py`
 - Analyse le nombre de stations météorologiques actives par année.
 - Génère un graphique montrant l'évolution des stations actives de 1960 à 2022.
 
-### calcul_percentile999_exemple_aleatoire.py
+### `calcul_percentile999_exemple_aleatoire.py`
 - Sélectionne une station aléatoire et calcule le 99.9ème percentile des températures quotidiennes.
 - Crée un histogramme de la distribution des températures pour la station sélectionnée.
 
-### temperature_sup_95pc.py
+### `temperature_sup_95pc.py`
 - Calcule le pourcentage de stations dépassant la température du 99.9ème percentile (basé sur les données 1960-1990).
 - Génère des graphiques montrant l'évolution des extrêmes de température.
 - Crée une carte des stations météorologiques en France.
 
-### vagues_chaleurs_France_metro.py
+### `vagues_chaleurs_France_metro.py`
 - Identifie les vagues de chaleur, comme sur 6 jours consécutifs de températures maximales au-dessus du 90ème percentile (période de référence 1960-1990).
 - Analyse la fréquence des vagues de chaleur de 1994 à 2022.
 - Génère des graphiques montrant l'évolution des vagues de chaleur.
+
+### `vagues_chaleurs_France_metro_stations_historique_large.py`
+- Similaire à `vagues_chaleurs_France_metro.py`, mais on ne garde que les stations ayant des données de <=1960 à 2022
 
 ## Données
 
